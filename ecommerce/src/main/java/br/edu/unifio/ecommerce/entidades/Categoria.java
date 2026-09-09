@@ -13,7 +13,7 @@ import lombok.Setter;
 public class Categoria {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private Short id;
+    private Integer id;
 
     private String nome;
 
